@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkflowVisualisation.WebAs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowVisualisation.NetCoreWebApp", "WorkflowVisualisation.NetCoreWebApp\WorkflowVisualisation.NetCoreWebApp.csproj", "{E3EF6ACB-49F7-49AC-A3C5-6723E0EDC6A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowVisualisation.WebAssemblyNetCoreHosted.Server", "WorkflowVisualisation.WebAssemblyNetCoreHosted\Server\WorkflowVisualisation.WebAssemblyNetCoreHosted.Server.csproj", "{D7ADD8F4-95AC-4470-9BC3-FEA15871C645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowVisualisation.WebAssemblyNetCoreHosted.Client", "WorkflowVisualisation.WebAssemblyNetCoreHosted\Client\WorkflowVisualisation.WebAssemblyNetCoreHosted.Client.csproj", "{E1268331-E8B5-4DA1-8372-D05FA4DAAB2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowVisualisation.WebAssemblyNetCoreHosted.Shared", "WorkflowVisualisation.WebAssemblyNetCoreHosted\Shared\WorkflowVisualisation.WebAssemblyNetCoreHosted.Shared.csproj", "{14A80B02-D05D-4310-808C-F9417DB9915F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{E3EF6ACB-49F7-49AC-A3C5-6723E0EDC6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3EF6ACB-49F7-49AC-A3C5-6723E0EDC6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3EF6ACB-49F7-49AC-A3C5-6723E0EDC6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7ADD8F4-95AC-4470-9BC3-FEA15871C645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7ADD8F4-95AC-4470-9BC3-FEA15871C645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7ADD8F4-95AC-4470-9BC3-FEA15871C645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7ADD8F4-95AC-4470-9BC3-FEA15871C645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1268331-E8B5-4DA1-8372-D05FA4DAAB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1268331-E8B5-4DA1-8372-D05FA4DAAB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1268331-E8B5-4DA1-8372-D05FA4DAAB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1268331-E8B5-4DA1-8372-D05FA4DAAB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A80B02-D05D-4310-808C-F9417DB9915F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A80B02-D05D-4310-808C-F9417DB9915F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A80B02-D05D-4310-808C-F9417DB9915F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A80B02-D05D-4310-808C-F9417DB9915F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
