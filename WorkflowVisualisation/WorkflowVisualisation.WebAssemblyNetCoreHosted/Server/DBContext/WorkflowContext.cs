@@ -1,8 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using WorkflowVisualisation.WebAssemblyNetCoreHosted.Shared;
 
 namespace WorkflowVisualisation.WebAssemblyNetCoreHosted.Server.DBContext
@@ -28,7 +24,7 @@ namespace WorkflowVisualisation.WebAssemblyNetCoreHosted.Server.DBContext
         {
             modelBuilder.Entity<Workflow>(entity =>
             {
-                entity.ToTable("Book");
+                entity.ToTable("Workflow");
             });
 
         }
